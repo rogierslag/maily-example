@@ -1,0 +1,4 @@
+node_modules
+test-results/*.html
+test-results/*.mjml
+test-results/*.txt
