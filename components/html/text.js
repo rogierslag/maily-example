@@ -38,7 +38,7 @@ const Text = React.createClass({
 			style: 'normal',
 			align: 'left',
 			paddingTop: `${style.distance.extraSmall}px`,
-			color: style.Colors.black
+			color: style.colors.black
 		}
 	},
 

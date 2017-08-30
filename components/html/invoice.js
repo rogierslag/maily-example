@@ -24,7 +24,7 @@ const Invoice = React.createClass({
 						Hi {this.props.user_name},
 					</mj-text>
 					<Text>
-						Attached you will find your invoice for order #{this.props.order_id}
+						Attached you will find your invoice for order #{this.props.order_id}.
 					</Text>
 					<mj-text font-size={`${style.fontSize.medium}px`}
 					         padding-top={`${style.distance.small}px`}

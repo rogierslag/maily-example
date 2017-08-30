@@ -2,8 +2,10 @@ module.exports = {
 	colors: {
 		green: '#8BC43F',
 		fullWhite: '#FFFFFF',
-		gray: '#DDDDDD',
-		black: '#181818'
+		gray: '#BBBBBB',
+		white: '#EEEEEE',
+		black: '#121212',
+		background: 'rgb(247,246,246)'
 	},
 	distance: {
 		extraSmall: 4,

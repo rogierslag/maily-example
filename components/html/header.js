@@ -1,6 +1,5 @@
 const React = require('react');
 
-const PropTypes = require('../propTypes');
 const style = require('../style');
 
 const Divider = require('./divider');

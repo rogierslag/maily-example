@@ -33,8 +33,7 @@ const Envelope = React.createClass({
 				<mj-body>
 					<mj-container background-color={style.colors.background} width="500px">
 						<mj-spacer height={`${style.distance.medium}px`} />
-						<Header showDivider={this.props.showHeaderDivider}
-						/>
+						<Header showDivider={this.props.showHeaderDivider} />
 						{this.props.children}
 						<FullWidthSection>
 							<Divider />
