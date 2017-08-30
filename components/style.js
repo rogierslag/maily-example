@@ -2,7 +2,8 @@ module.exports = {
 	colors: {
 		green: '#8BC43F',
 		fullWhite: '#FFFFFF',
-
+		gray: '#DDDDDD',
+		black: '#181818'
 	},
 	distance: {
 		extraSmall: 4,
