@@ -3,9 +3,12 @@ const React = require('react');
 const Envelope = require('./envelope');
 const Text = require('./text');
 
+const translate = require('../translate');
+
 const Invoice = React.createClass({
 
 	propTypes : {
+		lang : React.PropTypes.string.isRequired,
 		user_name : React.PropTypes.string.isRequired,
 		order_id : React.PropTypes.string.isRequired,
 	},
@@ -14,15 +17,15 @@ const Invoice = React.createClass({
 		return (
 			<Envelope>
 				<Text>
-					Hi {this.props.user_name},
+					{translate(this.props.lang, 'hi', {username: this.props.user_name})}
 				</Text>
 				<Text>
-					Attached you will find your invoice for order #{this.props.order_id}.
+					{translate(this.props.lang, 'invoiceAttached', {orderId: this.props.order_id})}
 				</Text>
 				<Text>
-					Greetings
+					{translate(this.props.lang, 'greetings')}
 					<br/>
-					the inventid team
+					{translate(this.props.lang, 'theTeam')}
 				</Text>
 			</Envelope>
 		);
